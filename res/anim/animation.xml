@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<scale android:fromXScale="1.0" android:toXScale="3.0"
+		android:fromYScale="1.0" android:toYScale="3.0" android:pivotX="50%"
+		android:pivotY="50%" android:fillAfter="false" android:duration="5000" />
+	<set>
+		<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+			android:fromAlpha="0.2" android:toAlpha="1.0" android:duration="3000" />
+		<rotate android:fromDegrees="0" android:toDegrees="-360"
+			android:toYScale="0.0" android:pivotX="50%" android:pivotY="50%"
+			android:startOffset="700" android:duration="4000" />
+		<translate android:fromXDelta="100%" android:toXDelta="-20%"
+			android:fromYDelta="60%" android:toYDelta="-30%" android:duration="3000"
+			android:zAdjustment="bottom" />
+	</set>
+</set>
